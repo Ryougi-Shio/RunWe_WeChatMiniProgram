@@ -1,0 +1,10 @@
+<!--pages/index2/index2.wxml-->
+<van-notice-bar color="#1989fa" background="white" scrollable mode="closeable" text="通过输入跑步时间和距离来预测成绩" />
+<view class="frontpage" >
+  <van-divider
+  contentPosition="center"
+  customStyle="color: black; background:white; border-color: black; font-size: 30px;">预测跑步成绩</van-divider>
+  <image src="https://636c-cloud1-6gnuhn9p12e5fa11-1310569801.tcb.qcloud.la/%E8%B4%B4%E5%9B%BE/run_score.jpeg?sign=0a7f15daa29c6bef100c9902d1ab1551&t=1652446691" mode="widthFix" style="position: relative; width: 712rpx; height: 372rpx; display: block; box-sizing: border-box; left: 19rpx; top: 15rpx; border-radius:8px;"></image>
+  <van-button style="position: relative; left: 149rpx; top: 42rpx; width: 452rpx; height: 80rpx; display: block; box-sizing: border-box" bind:click="ss1" round hairline type="info">点击此处开始预测您的跑步成绩</van-button>
+</view>
+ 
