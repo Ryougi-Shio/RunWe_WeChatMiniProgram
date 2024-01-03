@@ -33,7 +33,9 @@
     "pages/userinfo/userinfo",
     "pages/predict/predict",
     "pages/total_time/total_time",
-    "pages/score_show/score_show"
+    "pages/score_show/score_show",
+    "pages/poseDetect/poseDetect",
+    "pages/resultShow/resultShow"
   ],
   "permission": {
     "scope.userLocation": {
@@ -59,6 +61,12 @@
     "selectedColor": "#11cd6e",
     "borderStyle": "white",
     "list": [
+        {
+            "selectedIconPath": "images/community_filled.png",
+            "iconPath": "images/community.png",
+            "pagePath": "pages/poseDetect/poseDetect",
+            "text": "跑姿"
+          },
       {
         "selectedIconPath": "images/guidance_filled.png",
         "iconPath": "images/guidance.png",
